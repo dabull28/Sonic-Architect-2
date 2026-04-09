@@ -11,7 +11,7 @@ from google.genai import types
 
 def generate():
     client = genai.Client(
-        api_key=os.environ.get("GEMINI_API_KEY"),
+        api_key=st.secrets["GEMINI_API_KEY"],
     )
 
     model = "gemini-3.1-pro-preview"
