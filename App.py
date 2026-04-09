@@ -6,6 +6,8 @@ import streamlit as st
 from google import genai
 from google.genai import types
 
+# Make sure the rest of your code starts AFTER these imports
+
 
 def generate():
     client = genai.Client(
