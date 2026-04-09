@@ -1,0 +1,5 @@
+{
+  "name": "Sonic Architect",
+  "description": "Upload any song to analyze its DNA and generate perfect prompts for AI music creation.",
+  "requestFramePermissions": []
+}
